@@ -85,6 +85,14 @@ export default function Page({
             </li>
             <li>
               <a
+                href="https://github.com/ISNIT0/joe-blog"
+                target="_blank"
+              >
+                Code for this site
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://simmsreeve.com"
                 target="_blank"
               >

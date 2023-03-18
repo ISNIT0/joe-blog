@@ -29,4 +29,11 @@ export const articles: Article[] = [
       "https://docs.google.com/document/d/1_a0tGmpLDHqjXs994t0B3LCgA7wIPjPDLgaltmWVxeg/edit#",
     publishedAt: "18th March, 2023",
   },
+  {
+    title: "Ideating & Building AI Products",
+    slug: "ideating-and-building-ai-products",
+    docUrl:
+      "https://docs.google.com/document/d/1lkivb5wqWCTmI1QbtSWBTP6gqBHPFQWQsiX5gUT-On8/edit#",
+    publishedAt: "18th March, 2023",
+  },
 ];

@@ -30,7 +30,6 @@ a {
 a:not(.subtle) {
   font-weight: bold;
 }
-a:not(.subtle),
 a.subtle:hover {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }

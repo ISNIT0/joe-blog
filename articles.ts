@@ -21,6 +21,7 @@ export const articles: Article[] = [
     docUrl:
       "https://docs.google.com/document/d/1nPpi7_UA8obZmOeqmDljPXlxWeerfjnTLzHnNEr8NSI/edit#",
     publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
   {
     title: "Types of Multiplayer",
@@ -28,6 +29,7 @@ export const articles: Article[] = [
     docUrl:
       "https://docs.google.com/document/d/1_a0tGmpLDHqjXs994t0B3LCgA7wIPjPDLgaltmWVxeg/edit#",
     publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
   {
     title: "Ideating & Building AI Products",
@@ -35,5 +37,6 @@ export const articles: Article[] = [
     docUrl:
       "https://docs.google.com/document/d/1lkivb5wqWCTmI1QbtSWBTP6gqBHPFQWQsiX5gUT-On8/edit#",
     publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
 ];

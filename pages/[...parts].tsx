@@ -1,9 +1,9 @@
 import Head from "next/head";
 import styles from "@/styles/Article.module.scss";
-import { articles, Article } from "./articles";
+import { articles, Article } from "../articles";
 import { getGoogleDocsContent } from "@/utils/getGoogleDocsContent";
 import cx from "classnames";
-import { ArticleAside } from "./components/ArticleAside";
+import { ArticleAside } from "../components/ArticleAside";
 
 export default function Page({
   article,

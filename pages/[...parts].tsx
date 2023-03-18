@@ -4,6 +4,7 @@ import { articles, Article } from "../articles";
 import { getGoogleDocsContent } from "@/utils/getGoogleDocsContent";
 import cx from "classnames";
 import { ArticleAside } from "../components/ArticleAside";
+import Link from "next/link";
 
 export default function Page({
   article,
@@ -25,7 +26,9 @@ export default function Page({
       </Head>
       <header>
         <div className={styles.navContent}>
-          <h1>Joe&apos;s Notes</h1>
+          <Link href="/">
+            <h1>Joe&apos;s Notes</h1>
+          </Link>
           <p>
             A collection of notes, published by{" "}
             <a href="https://simmsreeve.com" target="_blank">
@@ -84,18 +87,12 @@ export default function Page({
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/ISNIT0/joe-blog"
-                target="_blank"
-              >
+              <a href="https://github.com/ISNIT0/joe-blog" target="_blank">
                 Code for this site
               </a>
             </li>
             <li>
-              <a
-                href="https://simmsreeve.com"
-                target="_blank"
-              >
+              <a href="https://simmsreeve.com" target="_blank">
                 Joe&apos;s Main Site
               </a>
             </li>

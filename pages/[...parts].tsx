@@ -16,7 +16,7 @@ export default function Page({
     <>
       <Head>
         <title>
-          <>{article.title} - Joe's Notes</>
+          <>{article.title} - Joe&apos;s Notes</>
         </title>
         <meta
           name="description"
@@ -27,7 +27,7 @@ export default function Page({
       </Head>
       <header>
         <div className={styles.navContent}>
-          <h1>Joe's Notes</h1>
+          <h1>Joe&apos;s Notes</h1>
           <p>
             A collection of notes, published by{" "}
             <a href="https://simmsreeve.com" target="_blank">
@@ -57,7 +57,7 @@ export default function Page({
             , and does some consulting on the side.
             <br />
             <br />
-            Joe's focus is constructing a framework for AI/ML Leaders &
+            Joe&apos;s focus is constructing a framework for AI/ML Leaders &
             Practitioners to build things of <strong>actual value</strong>,
             rather than waste time on cool projects that have no impact.
           </p>
@@ -66,7 +66,7 @@ export default function Page({
             <p>
               👉 Join the{" "}
               <a href="https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N" target="_blank">
-                Joe's Notes WhatsApp Group
+                Joe&apos;s Notes WhatsApp Group
               </a>{" "}
               to talk to other people who have read this.
             </p>

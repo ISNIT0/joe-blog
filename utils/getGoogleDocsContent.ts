@@ -49,6 +49,6 @@ async function _getGoogleDocsContent(
 
 export const getGoogleDocsContent = cacheIt(
   "google-docs",
-  1000 * 60 * 60,
+  process.env.NODE_ENV === "production" ? 1000 * 60 * 60 : 0,
   _getGoogleDocsContent
 );

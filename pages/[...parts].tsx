@@ -21,7 +21,7 @@ export default function Page({
           content="A collection of notes, published by Joe (ISNIT0), some still WIP."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <header>
         <div className={styles.navContent}>
@@ -45,7 +45,7 @@ export default function Page({
       </main>
       <footer>
         <div className={styles.footerContent}>
-          <h2>About Joe & A Call To Action</h2>
+          <h1>About Joe & A Call To Action</h1>
           <p>
             Joe is a Product Engineer, Engineering Manager, and Founder. He
             currently works at{" "}
@@ -72,6 +72,26 @@ export default function Page({
               to talk to other people who have read this.
             </p>
           </aside>
+          <br />
+          <h1>Links</h1>
+          <ul>
+            <li>
+              <a
+                href="https://simpleanalytics.com/notes.simmsreeve.com"
+                target="_blank"
+              >
+                Analytics for this site
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://simmsreeve.com"
+                target="_blank"
+              >
+                Joe&apos;s Main Site
+              </a>
+            </li>
+          </ul>
         </div>
       </footer>
     </>

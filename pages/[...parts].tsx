@@ -15,9 +15,7 @@ export default function Page({
   return (
     <>
       <Head>
-        <title>
-          <>{article.title} - Joe&apos;s Notes</>
-        </title>
+        <title>{`${article.title} - Joe's Notes`}</title>
         <meta
           name="description"
           content="A collection of notes, published by Joe (ISNIT0), some still WIP."
@@ -65,7 +63,10 @@ export default function Page({
           <aside>
             <p>
               👉 Join the{" "}
-              <a href="https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N" target="_blank">
+              <a
+                href="https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N"
+                target="_blank"
+              >
                 Joe&apos;s Notes WhatsApp Group
               </a>{" "}
               to talk to other people who have read this.

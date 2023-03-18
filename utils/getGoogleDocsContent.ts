@@ -1,13 +1,14 @@
 import DOMParser from "dom-parser";
 import axios from "axios";
 import { decode } from "html-entities";
+import { cacheIt } from "./cacheIt";
 
 const MATCH_GOOGLE_REDIRECT_URLS =
   /https:\/\/www\.google\.com\/url\?q(%3D|=)https:\/\/www\.google\.com\/url\?q(%3D|=)/g;
 const MATCH_GOOGLE_REDIRECT_URLS_FULL =
   /https:\/\/www\.google\.com\/url\?q(%3D|=)https:\/\/www\.google\.com\/url\?q(%3D|=)(.*?)"/g;
 
-export async function getGoogleDocsContent(
+async function _getGoogleDocsContent(
   url: string,
   asHtml = true
 ): Promise<string> {
@@ -45,3 +46,9 @@ export async function getGoogleDocsContent(
 
   return asHtml ? preparedHtml : document.textContent;
 }
+
+export const getGoogleDocsContent = cacheIt(
+  "google-docs",
+  1000 * 60 * 60,
+  _getGoogleDocsContent
+);

@@ -48,7 +48,7 @@ export default function Page({
       </main>
       <footer>
         <div className={styles.footerContent}>
-          <h1>About Joe & A Call To Action</h1>
+          <h2>About Joe & A Call To Action</h2>
           <p>
             Joe is a Product Engineer, Engineering Manager, and Founder. He
             currently works at{" "}
@@ -76,7 +76,7 @@ export default function Page({
             </p>
           </aside>
           <br />
-          <h1>Links</h1>
+          <h2>Links</h2>
           <ul>
             <li>
               <a

@@ -1,16 +1,14 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import Link from "next/link";
-import Script from "next/script";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <Script
+      <script
         async
         defer
         src="https://scripts.simpleanalyticscdn.com/latest.js"
-      ></Script>
+      ></script>
       <noscript>
         <img
           src="https://queue.simpleanalyticscdn.com/noscript.gif"

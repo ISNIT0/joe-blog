@@ -71,4 +71,12 @@ export const articles: Article[] = [
     publishedAt: "18th March, 2023",
     whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
+  {
+    title: "Capability Engineering",
+    slug: "capability-engineering",
+    docUrl:
+      "https://docs.google.com/document/d/1IDkL-jUd8mBVrXZG5zkRE1uCCMqc9gj6cM2-SPgqPPA/edit#",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
 ];

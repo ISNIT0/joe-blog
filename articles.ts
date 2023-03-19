@@ -63,4 +63,12 @@ export const articles: Article[] = [
     publishedAt: "18th March, 2023",
     whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
+  {
+    title: "QA For LLMs",
+    slug: "qa-for-llms",
+    docUrl:
+      "https://docs.google.com/document/d/1oGSiojwOwFrGJ8RZqfwyEvwofP5dqjrA-vawbFFxiSI/edit#",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
 ];

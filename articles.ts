@@ -48,10 +48,18 @@ export const articles: Article[] = [
     whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
   {
-    title: "Tailoring Models to users",
+    title: "Tailoring Models to Users",
     slug: "tailoring-models-to-users",
     docUrl:
       "https://docs.google.com/document/d/15A7ew4z69b2aRA6_bgjuUBLWlbJg87pwkUVbextQQ84/edit#",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
+  {
+    title: "Trusting Models",
+    slug: "trusting-models",
+    docUrl:
+      "https://docs.google.com/document/d/1RlslWDRt4NG5j3shwjF9qe_N3IVPDl__bLK0xIHsCF8/edit#",
     publishedAt: "18th March, 2023",
     whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },

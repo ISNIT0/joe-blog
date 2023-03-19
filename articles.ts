@@ -87,4 +87,36 @@ export const articles: Article[] = [
     publishedAt: "18th March, 2023",
     whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
+  {
+    title: "Email: News Nonsense",
+    slug: "email-news-nonsense",
+    docUrl:
+      "https://docs.google.com/document/d/1G2Vsd6ix3qbtFwT9TJohHeuGsdr7WrbysJs1qrj61xA/edit#",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
+  {
+    title: "Email: What is The Bottleneck?",
+    slug: "email-what-is-the-bottleneck",
+    docUrl:
+      "https://docs.google.com/document/d/1PfXHaA6ENNd_XZ2Gglh9hGfKpflNwdGlVr0k_jzHJkg/edit",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
+  {
+    title: "Email: The Problem/Goal",
+    slug: "email-the-problem-goal",
+    docUrl:
+      "https://docs.google.com/document/d/1vvjg40rXcZN2jk2hkb6d1I5a_UOydvwi1wfc01jN4Zo/edit#",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
+  {
+    title: "Email: Should We Do Anything About Media?",
+    slug: "email-should-we-do-anything-about-media",
+    docUrl:
+      "https://docs.google.com/document/d/1FHQeXTbQBNpi8_Qo8-RBRHlpgnxCx0StwPqqm03Lr4c/edit",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
 ];

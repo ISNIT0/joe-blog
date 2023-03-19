@@ -47,4 +47,12 @@ export const articles: Article[] = [
     publishedAt: "18th March, 2023",
     whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
+  {
+    title: "Tailoring Models to users",
+    slug: "tailoring-models-to-users",
+    docUrl:
+      "https://docs.google.com/document/d/15A7ew4z69b2aRA6_bgjuUBLWlbJg87pwkUVbextQQ84/edit#",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
 ];

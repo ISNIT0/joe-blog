@@ -79,4 +79,12 @@ export const articles: Article[] = [
     publishedAt: "18th March, 2023",
     whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
   },
+  {
+    title: "AI/ML Index",
+    slug: "ai-ml",
+    docUrl:
+      "https://docs.google.com/document/d/1rc7uF8htHiS9uaTDeFe5TrPIqt_YvTXpwfPrxc6tQiM/edit#",
+    publishedAt: "18th March, 2023",
+    whatsAppUrl: "https://chat.whatsapp.com/H4rmV1S0qme0yzpmoSDl5N",
+  },
 ];

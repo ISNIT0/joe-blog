@@ -16,6 +16,8 @@ export default function Document() {
           referrerPolicy="no-referrer-when-downgrade"
         />
       </noscript>
+      <link href="https://github.com/isnit0" rel="me" />
+      <link href="https://twitter.com/isnit0" rel="me" />
       <body>
         <Main />
 
